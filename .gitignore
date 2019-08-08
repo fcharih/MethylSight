@@ -2,6 +2,7 @@
 ##################################################################
 #
 database/data
+predictor/MethylSightV1/software
 
 # Logs
 logs
