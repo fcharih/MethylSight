@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/methylsight/static/css/main.795991f2.chunk.css",
+    "main.js": "/methylsight/static/js/main.048dd450.chunk.js",
+    "main.js.map": "/methylsight/static/js/main.048dd450.chunk.js.map",
+    "runtime~main.js": "/methylsight/static/js/runtime~main.60b7b353.js",
+    "runtime~main.js.map": "/methylsight/static/js/runtime~main.60b7b353.js.map",
+    "static/css/2.509658c0.chunk.css": "/methylsight/static/css/2.509658c0.chunk.css",
+    "static/js/2.bad9223e.chunk.js": "/methylsight/static/js/2.bad9223e.chunk.js",
+    "static/js/2.bad9223e.chunk.js.map": "/methylsight/static/js/2.bad9223e.chunk.js.map",
+    "index.html": "/methylsight/index.html",
+    "precache-manifest.cbfd9a5eba8866751d0aa41fa31768d9.js": "/methylsight/precache-manifest.cbfd9a5eba8866751d0aa41fa31768d9.js",
+    "service-worker.js": "/methylsight/service-worker.js",
+    "static/css/2.509658c0.chunk.css.map": "/methylsight/static/css/2.509658c0.chunk.css.map",
+    "static/css/main.795991f2.chunk.css.map": "/methylsight/static/css/main.795991f2.chunk.css.map",
+    "static/media/Histones.png": "/methylsight/static/media/Histones.7367eec3.png",
+    "static/media/animated_logo.gif": "/methylsight/static/media/animated_logo.a1087a3c.gif",
+    "static/media/biggar.png": "/methylsight/static/media/biggar.60143a13.png",
+    "static/media/charih.png": "/methylsight/static/media/charih.a4ce6aa3.png",
+    "static/media/green.png": "/methylsight/static/media/green.cb8d9699.png",
+    "static/media/grigg.png": "/methylsight/static/media/grigg.905c6417.png",
+    "static/media/li.png": "/methylsight/static/media/li.bbd23e06.png",
+    "static/media/loading_mg.gif": "/methylsight/static/media/loading_mg.a11818b9.gif",
+    "static/media/ruiz-blanco.png": "/methylsight/static/media/ruiz-blanco.506b14f1.png"
+  }
+}

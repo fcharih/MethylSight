@@ -1,0 +1,22 @@
+version: '3.5'
+
+services:
+  server:
+    container_name: methylsight-predictor
+    build: .
+    restart: always
+    environment:
+      - FLASK_DEBUG=1
+    expose:
+      - 5000
+    ports:
+      - 5000:5000
+    networks:
+      - webapp_network
+    volumes:
+      - .:/predictor
+
+networks:
+  webapp_network:
+    external:
+      name: webapp_network

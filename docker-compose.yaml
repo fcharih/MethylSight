@@ -1,0 +1,45 @@
+version: '3.5'
+
+services:
+  server:
+    container_name: methylsight-server
+    build: .
+    restart: always
+    expose:
+      - 8080
+    ports:
+      - 8080:8080
+    networks:
+      - webapp_network
+    volumes:
+      - .:/webapp
+      - /webapp/node_modules
+  redis:
+    container_name: redis
+    image: redis
+    restart: always
+    expose:
+      - 6379
+    ports:
+      - 6379:6379
+    networks:
+      - webapp_network
+
+  predictor:
+    container_name: methylsight-predictor
+    build: ./predictor/MethylSightV1
+    restart: always
+    environment:
+      - FLASK_DEBUG=1
+    expose:
+      - 5000
+    ports:
+      - 5000:5000
+    networks:
+      - webapp_network
+    volumes:
+      - ./predictor/MethylSightV1:/predictor
+
+networks:
+  webapp_network:
+    name: webapp_network
