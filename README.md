@@ -33,10 +33,14 @@ This repository comprises three things:
 
 To run MethylSight, you will need to install Docker on your platform.
 
-Then, you will need to create a container.
+Then, you will need to create a container and download some software, i.e. weka and ProtDCal which will
+be installed for you if you run the commands below.
 
 ```
 $ git clone https://github.com/flexplicateur/MethylSight.git && cd MethylSight
+$ wget http://cu-bic.ca/flexplicateur/software.tar.gz \
+  && tar -zxvf software.tar.gz -C predictor/MethylSightV1 \
+  && rm software.tar.gz
 $ docker-compose build
 $ docker-compose up -d
 ```
