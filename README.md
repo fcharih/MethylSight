@@ -29,15 +29,13 @@ This repository comprises three things:
 * The React.js-based web client (in `client/`)
 * The standalone predictor (in `predictor/MethylSightV1`)
 
-For details on how to install PerfectSense, please consult
-[INSTALL.md](https://github.com/flexplicateur/PerfectSense/blob/master/INSTALL.md).
-
 ## Running MethylSight
 
 To run MethylSight, you will need to install Docker on your platform.
 
 Then, you will need to create a container.
 
+<<<<<<< HEAD
 ```
 $ git clone https://github.com/flexplicateur/MethylSight.git && cd MethylSight
 $ docker-compose build
@@ -52,6 +50,22 @@ $ curl -X POST -H "Content-Type: application/json" \
     -d '{ "tag": ">protein_name", "sequence": "MYPRTEINHASAKHERE"  }' \
     http://localhost:5000
 ```
+=======
+```
+$ git clone https://github.com/flexplicateur/MethylSight.git && cd MethylSight
+$ docker-compose build
+$ docker-compose up -d
+```
+
+MethylSight will then be listening on port 5000 and waiting for requests. You can then
+submit requests to the port 5000 using `curl`
+
+```
+$ curl -X POST -H "Content-Type: application/json" \
+    -d '{ "tag": ">protein_name", "sequence": "MYPRTEINHASAKHERE"  }' \
+    http://localhost:5000
+```
+>>>>>>> Update README
 
 ## License
 
