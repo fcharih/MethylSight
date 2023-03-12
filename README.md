@@ -38,9 +38,9 @@ be installed for you if you run the commands below.
 
 ```
 $ git clone https://github.com/flexplicateur/MethylSight.git && cd MethylSight
-$ wget http://cu-bic.ca/flexplicateur/software.tar.gz \
-  && tar -zxvf software.tar.gz -C predictor/MethylSightV1 \
-  && rm software.tar.gz
+$ wget https://github.com/fcharih/MethylSight/releases/download/deps/methylsightv1_software.tar.gz \
+  && tar -zxvf methylsightv1_software.tar.gz -C predictor/MethylSightV1 \
+  && rm methylsightv1_software.tar.gz
 $ docker-compose build
 $ docker-compose up -d
 ```
